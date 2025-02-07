@@ -1,11 +1,22 @@
 <odoo>
   <data>
-    <record id="sge_libreria.categoria_fomr" model="ir.ui.view">
-      <field name="" />
-      <field name="arch" type="xml">
+    <record id="sge_libreria.categoria_form" model="ir.ui.view">
+        <field name="name">sge.libreria.categoria.form</field>
+        <field name="model">sge.libreria.categoria</field>
+        <field name="arch" type="xml">
+          <form string="">
+            <sheet>
+              <group>
+                <field name="name" />
+                <field name="description"></field> 
+              </group>
+            </sheet>
+          </form>
+        </field>
+      </record>
     </record>
 
-    <record id="sge.libreria.categoria_tree" model="ir.ui.view">
+    <record id="sge_libreria.categoria_tree" model="ir.ui.view">
       <field name="name">sge.libreria.categoria.tree</field>
       <field name="model">sge.libreria.categoria</field>
       <field name="arch" type="xml">
