@@ -25,11 +25,15 @@ Gestion de una libreria
     'data': [
         # 'security/ir.model.access.csv',
         'views/categoria.xml',
-        'views/templates.xml',
+        'views/menus.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+
+    # Quitar filtro aplication
+    'application' : True
+
 }
 
