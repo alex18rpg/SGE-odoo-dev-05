@@ -23,9 +23,10 @@ Gestion de una libreria
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/categoria.xml',
         'views/menus.xml',
+        'views/libro.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
@@ -33,7 +34,8 @@ Gestion de una libreria
     ],
 
     # Quitar filtro aplication
-    'application' : True
-
+    'application': False, 
+    #'installable' : True
+ 
 }
 
