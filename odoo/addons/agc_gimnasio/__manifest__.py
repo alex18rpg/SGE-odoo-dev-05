@@ -2,13 +2,14 @@
 {
     'name': "agc_gimnasio",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Modulo de gestion de un Gimnasion Pokemon",
 
     'description': """
-Long description of module's purpose
+Modulo de Gestion de Gimansin Pokemon para SGE <br/>
+Gestion de un gimnasion pokemon
     """,
 
-    'author': "My Company",
+    'author': "Alex Gabriel Chirascu",
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -22,9 +23,9 @@ Long description of module's purpose
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
-        'views/templates.xml',
+        'views/menus.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

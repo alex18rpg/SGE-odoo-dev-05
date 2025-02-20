@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <!-- Acciones-->
+    <record id="agc_gimnasio.entrenador_action" model="ir.actions.act_window">
+        <field name="name">Entrenador</field>
+        <field name="res_model">agc_gimnasio.entrenador</field>
+        <field name="view_mode">tree,form</field>  
+    </record>
+
+    <record id="agc_gimnasio.equipo_action" model="ir.actions.act_window">
+        <field name="name">Equipo</field>
+        <field name="res_model">agc_gimnasio.equipo</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="agc_gimnasio.lider_action" model="ir.actions.act_window">
+        <field name="name">Lider</field>
+        <field name="res_model">agc_gimnasio.lider</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="agc_gimnasio.subdito_action" model="ir.actions.act_window">
+        <field name="name">Subdito</field>
+        <field name="res_model">agc_gimnasio.subdito</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- Menus-->
+    <menuitem
+        id="agc_gimnasio.root_menu"
+        name="Gimnasio"
+        sequence="5"/>
+    <menuitem
+        id="agc_gimnasio.entrenador_menu"
+        name="Entrenador"
+        action="agc_gimnasio.entrenador_action" 
+        parent="agc_gimnasio.root_menu"
+        sequence="6"/>
+    <menuitem
+        id="agc_gimnasio.equipo_menu"
+        name="Equipo"
+        action="agc_gimnasio.equipo_action" 
+        parent="agc_gimnasio.root_menu"
+        sequence="7"/>
+    <menuitem
+        id="agc_gimnasio.lider_menu"
+        name="Lider"
+        action="agc_gimnasio.lider_action" 
+        parent="agc_gimnasio.root_menu"
+        sequence="8"/>
+    <menuitem
+        id="agc_gimnasio.subdito_menu"
+        name="Subdito"
+        action="agc_gimnasio.subdito_action" 
+        parent="agc_gimnasio.root_menu"
+        sequence="9"/>
+    </data>
+</odoo>

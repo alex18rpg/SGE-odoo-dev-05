@@ -9,7 +9,14 @@
             <group>
               <field name="name" />
               <field name="precio"></field> 
-              <field name="categorai_id"></field> 
+              <field name="categoria_id"></field>
+              <field name="autor_ids" >
+                <tree string="Autor">
+                    <field name="name" />
+                    <field name="fecha_nac" />
+                    <field name="country_id" />
+                </tree>
+              </field> 
             </group>
           </sheet>
         </form>
@@ -23,7 +30,7 @@
         <tree string="Libro">
           <field name="name" />
           <field name="precio"></field>    
-          <field name="categorai_id"></field>  
+          <field name="categoria_id"></field>  
         </tree>
       </field>
     </record>

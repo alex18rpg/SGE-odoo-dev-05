@@ -1,2 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_agc_gimnasio_agc_gimnasio,agc_gimnasio.agc_gimnasio,model_agc_gimnasio_agc_gimnasio,base.group_user,1,1,1,1
+access_agc_gimnasio_entrenador_users,agc_gimnaiso.entrenador_users,model_agc_gimnasio_entrenador,base.group_user,1,1,1,0
+access_agc_gimnasio_equipo_users,agc_gimnaiso.equipo_users,model_agc_gimnasio_equipo,base.group_user,1,1,1,0
+access_agc_gimnasio_lider_users,agc_gimnaiso.lider_users,model_agc_gimnasio_lider,base.group_user,1,1,1,0
+access_agc_gimnasio_subdito_users,agc_gimnaiso.subdito_users,model_agc_gimnasio_subdito,base.group_user,1,1,1,0
+

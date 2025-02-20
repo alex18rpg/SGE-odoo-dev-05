@@ -27,6 +27,7 @@ Gestion de una libreria
         'views/categoria.xml',
         'views/menus.xml',
         'views/libro.xml',
+        'views/autor.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
@@ -35,7 +36,7 @@ Gestion de una libreria
 
     # Quitar filtro aplication
     'application': False, 
-    #'installable' : True
+    
  
 }
 

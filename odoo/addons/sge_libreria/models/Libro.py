@@ -19,3 +19,4 @@ class Libro(models.Model):
     ], string='Estado', default='N')
 
     categoria_id = fields.Many2one('sge_libreria.categoria', string='Categoria')
+    autor_ids = fields.Many2many('sge_libreria.autor', string='Autores', relation='sge_libreria_libro_autor_rel')
