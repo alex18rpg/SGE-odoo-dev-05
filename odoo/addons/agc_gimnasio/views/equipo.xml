@@ -1,8 +1,8 @@
 <odoo>
   <data>
-    <record id="agc_gimansio.equipo_form" model="ir.ui.view">
-      <field name="name">agc_gimansio.equipo_form</field>
-      <field name="model">agc_gimansio.equipo</field>
+    <record id="agc_gimnasio.equipo_form" model="ir.ui.view">
+      <field name="name">agc_gimnasio.equipo_form</field>
+      <field name="model">agc_gimnasio.equipo</field>
       <field name="arch" type="xml">
         <form string="">
           <sheet>
@@ -10,14 +10,6 @@
               <field name="name" />
               <field name="apodo"></field>
               <field name="numero_miembros" />
-            <!-- Esta vista es para las relaciones (viene de libreria) 
-              <field name="libro_ids" >
-                <tree string="Libro">
-                    <field name="name" />
-                    <field name="precio" /> 
-                </tree>
-              </field>              
-            -->
             </group>
           </sheet>
         </form>
