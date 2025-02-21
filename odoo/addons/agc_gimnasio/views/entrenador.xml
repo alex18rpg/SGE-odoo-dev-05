@@ -10,7 +10,7 @@
               <field name="name" />
               <field name="numero_objetos"></field>
               <field name="legendario" />
-            <!-- Esta vista es para las relacines y  
+            <!-- Esta vista es para las relaciones (viene de) 
               <field name="libro_ids" >
                 <tree string="Libro">
                     <field name="name" />
@@ -30,10 +30,10 @@
       <field name="arch" type="xml">
         <tree string="Entrenador">
           <field name="name" />
-          <field name="description"></field>     
+          <field name="numero_objetos" />
+          <field name="legendario" />     
         </tree>
       </field>
-    </record>
-      
+    </record>  
   </data>
 </odoo>

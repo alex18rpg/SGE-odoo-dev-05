@@ -24,12 +24,17 @@ Gestion de un gimnasion pokemon
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/views.xml',
+        'views/equipo.xml',
+        'views/lider.xml',
+        'views/subdito.xml',
         'views/menus.xml',
+        'views/entrenador.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+    'application': True,
+    'icon': 'static/description/icono.png'
 }
 

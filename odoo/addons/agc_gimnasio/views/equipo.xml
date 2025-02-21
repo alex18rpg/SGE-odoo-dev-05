@@ -1,0 +1,40 @@
+<odoo>
+  <data>
+    <record id="agc_gimansio.equipo_form" model="ir.ui.view">
+      <field name="name">agc_gimansio.equipo_form</field>
+      <field name="model">agc_gimansio.equipo</field>
+      <field name="arch" type="xml">
+        <form string="">
+          <sheet>
+            <group>
+              <field name="name" />
+              <field name="apodo"></field>
+              <field name="numero_miembros" />
+            <!-- Esta vista es para las relaciones (viene de libreria) 
+              <field name="libro_ids" >
+                <tree string="Libro">
+                    <field name="name" />
+                    <field name="precio" /> 
+                </tree>
+              </field>              
+            -->
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="agc_gimnasio.equipo_tree" model="ir.ui.view">
+      <field name="name">agc_gimnasio.equipo.tree</field>
+      <field name="model">agc_gimnasio.equipo</field>
+      <field name="arch" type="xml">
+        <tree string="Equipo">
+          <field name="name" />
+          <field name="apodo" />
+          <field name="numero_miembros" />     
+        </tree>
+      </field>
+    </record>
+      
+  </data>
+</odoo>

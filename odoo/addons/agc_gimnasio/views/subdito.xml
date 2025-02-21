@@ -1,0 +1,41 @@
+<odoo>
+  <data>
+    <record id="agc_gimansio.lider_form" model="ir.ui.view">
+      <field name="name">agc_gimansio.lider_form</field>
+      <field name="model">agc_gimansio.lider</field>
+      <field name="arch" type="xml">
+        <form string="">
+          <sheet>
+            <group>
+              <field name="name" />
+              <field name="nivel" />
+              <field name="numero_objetos" />
+              <field name="legendario" />
+            <!-- Esta vista es para las relaciones (viene de libreria) 
+              <field name="libro_ids" >
+                <tree string="Libro">
+                    <field name="name" />
+                    <field name="precio" /> 
+                </tree>
+              </field>              
+            -->
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="agc_gimnasio.subdito_tree" model="ir.ui.view">
+      <field name="name">agc_gimnasio.subdito.tree</field>
+      <field name="model">agc_gimnasio.subdito</field>
+      <field name="arch" type="xml">
+        <tree string="Subdito">
+            <field name="name" />
+            <field name="nivel" />
+            <field name="numero_objetos" />
+            <field name="legendario" />   
+        </tree>
+      </field>
+    </record>    
+  </data>
+</odoo>
